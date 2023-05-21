@@ -1,0 +1,83 @@
+*,
+a {
+  list-style-type: none;
+  text-decoration: none;
+  color: black;
+  font-family: "Poppins", sans-serif;
+  /* border: 1px solid black;  */
+}
+
+section {
+  min-height: 100vh;
+  display: flex;
+}
+
+section.regis-akun {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: url(../img-stocks/wepik-yellow-black-and-gray-geometric-background-2023051305575054I2.png) no-repeat center center/cover;
+  overflow: visible;
+}
+
+img.maskot {
+  position: relative;
+  z-index: 1;
+}
+
+section.regis-akun .logo {
+  max-width: 15vw;
+}
+form.regis-akun,
+.bungkus {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 30px;
+  justify-content: center;
+
+  align-items: center;
+  width: 400px;
+  border-color: skyblue;
+  border-width: 0.1rem;
+  border-radius: 30px;
+  background: white;
+  overflow: visible;
+}
+
+section.regis-bio {
+  min-height: 100vh;
+  background: url(../img-stocks/wepik3.png) no-repeat center center/cover;
+}
+
+form.regis-bio {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  margin: 40px auto;
+  padding: 20px 30px;
+  width: 465px;
+  border-radius: 30px;
+  border-color: orange;
+}
+
+form.regis-akun .form-control {
+  width: 290px;
+}
+
+form.regis-bio .form-control {
+  width: 400px;
+}
+
+section .btn {
+  display: flex;
+  margin: 0 auto;
+}
+
+img.pemanis {
+  position: absolute;
+  z-index: 999;
+  right: 0;
+  bottom: 0;
+}
